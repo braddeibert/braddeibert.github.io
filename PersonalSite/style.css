@@ -85,7 +85,7 @@ footer img {
 
 #proj {
     background-color: inherit;
-    background-size: cover;
+    background-size: contain;
     transition: background 1s;
     color: white;
     height: 100vh;
