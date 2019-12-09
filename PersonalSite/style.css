@@ -1,0 +1,134 @@
+body {
+    background-color: hsl(0, 4%, 5%);
+    font-size: 20px;
+    margin: 0px;
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h1, h2, h3, h4, h5, p, a {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Major Mono Display', monospace;
+    padding: 20px;
+}
+
+div {
+    display: grid;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+ul {
+    padding: 5px 15px;
+    display: block;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+header, footer {
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+}
+
+header {
+    font-size: 30px;
+    color: black;
+    background-image: url(imgs/pic1.png);
+    background-size: cover;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+
+header a:hover {
+    color: black;
+    transition: color .5s;
+}
+
+footer {
+    padding: 30px;
+}
+
+footer img {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    border-radius: 1em;
+    background-color:  rgba(255, 255, 255, 0.863);
+}
+
+#about {
+    background-color: hsl(0, 0%, 15%);
+}
+
+#about h2 {
+    border-bottom: solid white;
+    padding: 10px;
+}
+
+#about #contents {
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#proj {
+    background-color: inherit;
+    background-size: cover;
+    transition: background 1s;
+    color: white;
+    height: 100vh;
+}
+
+#proj #p-title {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    grid-row-start: auto;
+    grid-row-end: 1
+}
+
+#proj #contents {
+    color: black;
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#proj #contents a:hover {
+    background-color: rgb(243, 243, 35);
+    transition: background 1s;
+    transition: padding .25s;
+    color: black;
+    padding: 5px;
+    border-radius: .5em;
+}
+
+#edu {
+    background-color: hsl(0, 0%, 15%);
+}
+
+#exp {
+    background-image: url(imgs/mymtns.jpg);
+    background-size: cover;
+    background-position: right;
+    height: 50vh;
+}
+
+#exp a:hover {
+    color: black;
+    background-color: rgb(243, 243, 35);
+    transition: background 1s;
+}

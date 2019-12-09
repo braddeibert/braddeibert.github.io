@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#about").hide();
+            $("#proj").hide();
+            $("#edu").hide();
+            $("#exp").hide();
+            $("footer").hide();
+        });
+    </script>
+    <title>Bradley Deibert</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a id="a" href="#about">About</a></li>
+                <li><a id="p" href="#proj">Projects</a></li>
+                <li><a id="ed" href="#edu">Education</a></li>
+                <li><a id="ex" href="#exp">Resume</a></li>
+                <li><a id="c" href="#foot">Contact</a></li>
+            </ul>
+        </nav>
+        <br>
+        <h1>Bradley Deibert</h1>
+    </header>
+
+    <div id="about">
+        <div id="contents">
+            <h2>About Me</h2>
+            <p> Welcome, and thanks for stopping by my personal site! I'm Brad, an aspiring tech developer originally from the Flathead Valley of Montana. <br> <br>
+                I picked up programming for the first time as a sophomore in college, and haven't looked back since. Problem solving has always been an area where I thrive, 
+                so of course coding and I naturally hit it off (it may also come as no surprise that I have a closeted love affair with mathematics). <br> <br>
+                My spare time is best spent with others getting in a good workout, watching sports, or just hanging out.
+                Currently, I am a junior at the University of Montana in Missoula studying computer science. <br> <br>
+                Somehow, I got an amazing girl from California to agree to marry me in August of 2019.
+                I am blessed beyond measure.
+            </p>
+        </div>
+    </div>
+
+    <div id="proj">
+        <div id="p-title">
+            <h2>projects</h2>
+        </div>
+        
+        <div id="contents">
+            <ul>
+                <li><a id="prop" href="http://californiabeach.herokuapp.com/index.html">proposal site</a></li>
+                <li><a id="etch" href="https://etch-a-sketch-top.herokuapp.com/index.html">etch-a-sketch</a></li>
+                <li><a id="rcp" href="https://rock-paper-scissors-top.herokuapp.com/">rock paper scissors</a></li>
+                <li><a id="goog" href="https://google-homepage-top.herokuapp.com/index.html">google</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="edu">
+        <h2>education</h2>
+        <div id="um">
+            <h4>Student, The University of Montana</h4>
+            <p>Pursuing a BS in Computer Science, minoring in Mathematics. <br> Graduating Spring 2021.
+            </p>
+        </div>
+        <div id="fvcc">
+            <h4>Associate of Science, Flathead Valley Community College</h4>
+            <p>Graduated Spring 2018</p>
+        </div>
+        <div id="cfalls">
+            <h4>Alumni, Columbia Falls High School</h4>
+            <p>Class of 2016</p>
+        </div>
+    </div>
+
+    <div id="exp">
+        <h2>Resume</h2>
+        <div>
+            <a href="professional_resume_12-8-19.pdf">Click here for my paper resume.</a>
+        </div>
+    </div>
+
+    <footer id="foot">
+        <h4>Email - bradeibert7@gmail.com</h4> <br><br>
+        <h4>Find me on:</h4>
+        <ul>
+            <li><a href="https://github.com/braddeibert"><img src="imgs/github.svg" alt=""></a></li>
+            <!---- <li><a href="">LinkedIn</a></li> -->
+            <li><a href="https://www.instagram.com/bradleydeibert/?hl=en"><img src="imgs/instagram.svg" alt=""></a></li>
+        </ul>
+        <p>Site built by Bradley Deibert (last updated 12/8/19)</p>
+    </footer>
+
+    <!--import js-->
+    <script src="index.js"></script>
+</body>
+</html>
