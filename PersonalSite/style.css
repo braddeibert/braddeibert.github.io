@@ -44,7 +44,6 @@ header, footer {
 }
 
 header {
-    font-size: 30px;
     color: black;
     background-image: url(imgs/pic1.png);
     background-size: cover;
@@ -93,7 +92,6 @@ footer img {
 }
 
 #proj #p-title {
-    font-size: 50px;
     background-color: black;
     color: white;
     grid-row-start: auto;
