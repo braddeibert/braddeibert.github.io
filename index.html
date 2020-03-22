@@ -1,104 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $("#about").hide();
-            $("#proj").hide();
-            $("#edu").hide();
-            $("#exp").hide();
-            $("footer").hide();
-        });
-    </script>
-    <title>Bradley Deibert</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <title>Brad Deibert</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a id="a" href="#about">About</a></li>
-                <li><a id="p" href="#proj">Projects</a></li>
-                <li><a id="ed" href="#edu">Education</a></li>
-                <li><a id="ex" href="#exp">Resume</a></li>
-                <li><a id="c" href="#foot">Contact</a></li>
+    <div class="container-fluid">
+
+        <!--BOOTSTRAP NAVBAR-->
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <ul class="navbar navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#proj-title">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#edu">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#exp">Resume</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <br>
-        <h1>bradley deibert</h1>
-    </header>
 
-    <div id="about">
-        <div id="contents">
-            <h2>about me</h2>
-            <p> Welcome, and thanks for stopping by my personal site! I'm Brad, an aspiring tech developer originally from the Flathead Valley of Montana. <br> <br>
-                I picked up programming for the first time as a sophomore in college, and haven't looked back since. Problem solving has always been an area where I thrive, 
-                so of course coding and I naturally hit it off (it may also come as no surprise that I have a closeted love affair with mathematics). <br> <br>
-                My spare time is best spent with others getting in a good workout, watching sports, or just hanging out.
-                Currently, I am a junior at the University of Montana in Missoula studying computer science. <br> <br>
-                Somehow, I got an amazing girl from California to agree to marry me in August of 2019.
-                I am blessed beyond measure.
-            </p>
-        </div>
-    </div>
+        <!--HERO HOME PAGE W/IMAGE-->
+        <div class="jumbotron jumbotron-fluid" id="home"
+            style="background-image: url(imgs/emma-smith-ByUSYLVoQ7M-unsplash.jpg); background-size: cover;">
+            <div class="container" id="home-capt">
+                <h1 class="display-4">Brad Deibert</h1>
+                <p class="lead">
+                    <svg class="bi bi-code" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M5.854 4.146a.5.5 0 010 .708L2.707 8l3.147 3.146a.5.5 0 01-.708.708l-3.5-3.5a.5.5 0 010-.708l3.5-3.5a.5.5 0 01.708 0zm4.292 0a.5.5 0 000 .708L13.293 8l-3.147 3.146a.5.5 0 00.708.708l3.5-3.5a.5.5 0 000-.708l-3.5-3.5a.5.5 0 00-.708 0z"
+                            clip-rule="evenodd" />
+                    </svg> Aspiring developer <br>
 
-    <div id="proj">
-        <div id="p-title">
-            <h2>projects</h2>
+                    <svg class="bi bi-geo-alt" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M8 16s6-5.686 6-10A6 6 0 002 6c0 4.314 6 10 6 10zm0-7a3 3 0 100-6 3 3 0 000 6z"
+                            clip-rule="evenodd" />
+                    </svg> Missoula, MT
+                </p>
+            </div>
         </div>
-        
-        <div id="contents">
-            <ul>
-                <li><a id="prop" href="http://californiabeach.herokuapp.com/index.html">proposal site</a></li>
-                <li><a id="etch" href="https://etch-a-sketch-top.herokuapp.com/index.html">etch-a-sketch</a></li>
-                <li><a id="rcp" href="https://rock-paper-scissors-top.herokuapp.com/">rock paper scissors</a></li>
-                <li><a id="goog" href="https://google-homepage-top.herokuapp.com/index.html">google</a></li>
+
+        <!--ABOUT SECTION-->
+        <div class="container-fluid text-center">
+            <div class="container" id="about">
+                <h2>About Me</h2>
+                <p class="lead"> Welcome, thanks for stopping by my personal site! <br><br>
+
+                    I'm Brad, an undergraduate computer science student at the University of Montana. <br><br>
+
+                    About 3 years have passed since I wrote my first "Hello, world!" program as a sophomore in college,
+                    and I haven't looked back.
+                    Problem solving has always been a ton of fun for me, so naturally I hit it off with coding
+                    (it may also come as no surprise that I have a fond admiration for mathematics). <br><br>
+
+                    My free time is best spent with others getting in a good workout, watching sports, or just hanging
+                    out. <br><br>
+
+                    Somehow, I got an amazing girl from California to agree to marry me in August, 2020.
+                    I am blessed beyond measure. <br>
+                </p>
+            </div>
+        </div>
+
+        <!--PROJECTS DISPLAY BOOTSTRAP CAROUSEL-->
+        <div class="carousel slide" id="projectCarousel" data-ride="carousel">
+
+            <h2 id="proj-title">Projects</h2>
+
+            <ol class="carousel-indicators">
+                <li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#projectCarousel" data-slide-to="1"></li>
+                <li data-target="#projectCarousel" data-slide-to="2"></li>
+                <li data-target="#projectCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <!--PROJECTS FOR DISPLAY-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="imgs/proposal-preview.png" alt="Proposal Site">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Proposal Site</h5>
+                        <a href="http://californiabeach.herokuapp.com/index.html">Mobile site I used as a piece of my proposal to my fiancee.</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="img-fluid" src="imgs/rcp-preview.png" alt="Rock Paper Scissors">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Rock Paper Scissors</h5>
+                        <a href="https://rock-paper-scissors-top.herokuapp.com/index.html">Interactive rock paper scissors game page.</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="img-fluid" src="imgs/etch-preview.png" alt="Etch-A-Sketch" style="background-size: contain;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Etch-A-Sketch</h5>
+                        <a href="https://etch-a-sketch-top.herokuapp.com/index.html">Interactive etch-a-sketch like site.</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="img-fluid" src="imgs/google-preview.png" alt="Google Clone">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Google Clone</h5>
+                        <a href="https://google-homepage-top.herokuapp.com/index.html">A Google clone made in plain html and css.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--EDUCATION SECTION-->
+        <div class="container-fluid" id="edu">
+            <h2>Education</h2>
+
+            <ul id="eduList" class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <h4>University of Montana
+                        <small class="text-muted">Graduating Spring 2021</small>
+                    </h4>
+                    <p>Majoring in Computer Science, minoring in Mathematics. <br>
+                        3.75 Institutional GPA</p>
+                </li>
+
+                <li class="list-group-item">
+                    <h4>Flathead Valley Community College
+                        <small class="text-muted">Class of 2018</small>
+                    </h4>
+                    <p>Associate of Science <br>
+                        3.37 Institutional GPA</p>
+                </li>
+
+                <li class="list-group-item">
+                    <h4>Columbia Falls High School
+                        <small class="text-muted">Class of 2016</small>
+                    </h4>
+                    <p>Awarded most improved student as senior.</p>
+                </li>
             </ul>
         </div>
+
+        <!--RESUME LINK-->
+        <div class="container-fluid" id="exp">
+            <div class="container">
+                <h2>Resume</h2>
+                <br><br><br><br><br><br><br><br>
+                <!--FIX ME-->
+                <a href="professional_resume_12-8-19.pdf" style="font-size: 1.25rem;">Click here for my paper resume.</a>
+            </div>
+        </div>
+
+        <!--CONTACT FOOTER-->
+        <div class="container-fluid" id="contact">
+            <h3>Contact</h3>
+            <h6>Reach me directly at <mark>bradeibert7@gmail.com</mark> <br><br> Also find me on:</h6>
+
+            <ul class="btns">
+                <li><a href="https://github.com/braddeibert"><img src="imgs/github.svg" alt=""></a></li>
+                <!---- <li><a href="">LinkedIn</a></li> -->
+                <li><a href="https://www.instagram.com/bradleydeibert/?hl=en"><img src="imgs/instagram.svg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+
     </div>
 
-    <div id="edu">
-        <h2>education</h2>
-        <div id="um">
-            <h4>Student, The University of Montana</h4>
-            <p>Pursuing a BS in Computer Science, minoring in Mathematics. <br> Graduating Spring 2021.
-            </p>
-        </div>
-        <div id="fvcc">
-            <h4>Associate of Science, Flathead Valley Community College</h4>
-            <p>Graduated Spring 2018</p>
-        </div>
-        <div id="cfalls">
-            <h4>Alumni, Columbia Falls High School</h4>
-            <p>Class of 2016</p>
-        </div>
-    </div>
-
-    <div id="exp">
-        <h2>resume</h2>
-        <div>
-            <a href="professional_resume_12-8-19.pdf">Click here for my paper resume.</a>
-        </div>
-    </div>
-
-    <footer id="foot">
-        <h4>Email - bradeibert7@gmail.com</h4> <br><br>
-        <h4>Find me on:</h4>
-        <ul>
-            <li><a href="https://github.com/braddeibert"><img src="imgs/github.svg" alt=""></a></li>
-            <!---- <li><a href="">LinkedIn</a></li> -->
-            <li><a href="https://www.instagram.com/bradleydeibert/?hl=en"><img src="imgs/instagram.svg" alt=""></a></li>
-        </ul>
-        <p>Site built by Bradley Deibert (last updated 12/8/19)</p>
-    </footer>
-
-    <!--import js-->
-    <script src="index.js"></script>
 </body>
+
 </html>
