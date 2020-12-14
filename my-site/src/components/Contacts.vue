@@ -1,7 +1,9 @@
 <template>
     <div>
         <li v-for="contact in contacts" :key="contact.id">
-            <a :href="contact.link"><i :class="contact.icon"></i></a>
+            <a :href="contact.link">
+                <i class="icons" :data-feather="contact.icon"></i>
+            </a>
         </li>
     </div>
 </template>
@@ -13,3 +15,19 @@ export default {
     },
 }
 </script>
+
+<style lang="scss" scoped>
+    li {
+        display: inline;
+    }
+    
+    .icons {
+        color: gray;
+        margin-right: .5rem;
+        height: 1.25rem;
+    }
+
+    svg:hover {
+        color: black;
+    }
+</style>

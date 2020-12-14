@@ -1,10 +1,25 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="#about">About</router-link>
-    </div> -->
-    <router-view />
+    <router-view></router-view>
   </div>
 </template>
 
+<script>
+import feather from 'feather-icons/dist/feather'
+
+export default {
+  mounted() {
+    feather.replace()
+  },
+
+  updated() {
+    feather.replace()
+  }
+}
+</script>
+
+<style lang="scss">
+  .body {
+    font-family: 'Raleway';
+  }
+</style>
