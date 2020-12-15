@@ -1,6 +1,6 @@
 
 module.exports = {
-    publicPath: '/',
+    publicPath: '/my-site/',
     
     css: {
         loaderOptions: {
