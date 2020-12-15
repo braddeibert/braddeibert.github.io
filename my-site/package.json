@@ -12,6 +12,7 @@
     "bootstrap": "^5.0.0-beta1",
     "core-js": "^3.6.5",
     "feather-icons": "^4.28.0",
+    "file-loader": "^6.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.4.9"
   },

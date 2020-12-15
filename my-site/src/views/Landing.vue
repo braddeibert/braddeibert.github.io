@@ -1,20 +1,24 @@
 <template>
-    <div class="home container-fluid">
+    <div class="home container">
       <br><br>
-      <div class="container">
-        <h1 class="display-1">Brad Deibert</h1>
-        <p class="lead">
-          <i class="icons" data-feather="terminal"></i>
-          {{ tagline }} <br />
+      <div class="container row">
+        <div class="col info">
+          <h1 class="display-1">Brad Deibert</h1>
+          <p class="lead">
+            <i class="icons" data-feather="terminal"></i>
+            {{ tagline }} <br />
 
-          <i class="icons" data-feather="map-pin"></i>
-          {{ location }}
-        </p>
-        <Contacts :contacts="contacts"></Contacts>
-      </div>
-      <div class="container-fluid d-flex">
-        <div class="container home-pic align-self-center">
-          <img class="img-fluid rounded" src="../assets/imgs/santa_monica.jpg" alt="">
+            <i class="icons" data-feather="map-pin"></i>
+            {{ location }}
+          </p>
+          <Contacts :contacts="contacts"></Contacts>
+        </div>
+        <div class="col avatar">
+          <div class="container-fluid d-flex justify-content-end">
+            <div class="container home-pic">
+              <img class="img-fluid pic" src="../assets/imgs/santa_monica.jpg" alt="">
+            </div>
+          </div>
         </div>
       </div>
       <Nav></Nav>
@@ -49,18 +53,36 @@ export default {
 <style lang="scss" scoped>
   .home {
     height: 100vh;
+    background-image: url('../assets/imgs/backdrop.jpg');
+    background-size: cover;
+    background-position: center;
 
     .home-pic {
-      background-color: white;
-      margin-top: 2rem;
-      padding: 2rem 2rem 6rem 2rem;
-      width: 30rem;
-      box-shadow: 5px 10px 25px;
-      border-radius: 0.25rem;
+      background-color: $body-bg;
+      padding: 1rem;
+      margin: 0px;
+      width: 25rem;
+      border-radius: 100%;
+
+      .pic {
+        border-radius: 100%;;
+      }
     }
   } 
 
+  .info {
+    text-shadow: 2px 2px 8px black;
+  }
+
+  .avatar {
+    display: none;
+
+    @media (min-width: 992px) { 
+      display: flex;
+    }
+  }
+
   .icons {
-    color: black;
+    color: $blue;
   }
 </style>

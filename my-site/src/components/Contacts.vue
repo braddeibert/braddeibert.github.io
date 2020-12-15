@@ -22,12 +22,12 @@ export default {
     }
     
     .icons {
-        color: gray;
+        color: $green;
         margin-right: .5rem;
         height: 1.25rem;
     }
 
     svg:hover {
-        color: black;
+        color: white;
     }
 </style>
