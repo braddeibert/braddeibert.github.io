@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: "/about",
-    component: About,
+    component: About
   },
   {
     path: "/resume",
@@ -23,7 +23,7 @@ const routes = [
   {
     path: "/projects",
     component: Projects
-  },
+  }
 ];
 
 const router = new VueRouter({
