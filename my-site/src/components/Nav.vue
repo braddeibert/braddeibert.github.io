@@ -3,22 +3,22 @@
     <ul class="nav">
       <li class="nav-item">
         <router-link class="nav-link" to="/">
-          <h4><i data-feather="home"></i> Home</h4>
+          <h4><i data-feather="home"></i> home</h4>
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/about">
-          <h4><i data-feather="align-left"></i> About</h4>
+          <h4><i data-feather="align-left"></i> about</h4>
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/resume">
-          <h4><i data-feather="briefcase"></i> Resume</h4>
+          <h4><i data-feather="briefcase"></i> resume</h4>
         </router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/projects">
-          <h4><i data-feather="activity"></i> Projects</h4>
+          <h4><i data-feather="activity"></i> projects</h4>
         </router-link>
       </li>
       <i data-feather="chevron-right" v-if="isOverflown"></i>

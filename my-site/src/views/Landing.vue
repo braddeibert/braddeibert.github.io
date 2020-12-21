@@ -3,7 +3,7 @@
     <br /><br />
     <div class="container row">
       <div class="col info">
-        <h1 class="display-1">Brad Deibert</h1>
+        <h1 class="display-1">brad deibert</h1>
         <p class="lead">
           <i class="icons" data-feather="terminal"></i>
           {{ tagline }} <br />

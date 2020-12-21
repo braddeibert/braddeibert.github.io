@@ -2,14 +2,14 @@
   <div class="container-fluid">
     <br /><br />
     <div class="container">
-      <h1 class="display-2">About</h1>
+      <h1 class="display-2">about</h1>
       <p class="lead">
         Hey there reader, thanks for stopping by and paying a visit to my site!
         Here's some stuff about me.
       </p>
       <br />
 
-      <h2 class="display-6">Where I've Been</h2>
+      <h2 class="display-6">where i've been</h2>
       <p>
         I was born in Kalispell, MT on June 22nd, 1998. I've spent most of my
         life and received my entire education in Montana. Firstly my diploma
@@ -21,7 +21,7 @@
       </p>
       <br />
 
-      <h2 class="display-6">Facts</h2>
+      <h2 class="display-6">facts</h2>
       <ul>
         <li>
           I spend a lot of time in the gym. After working at
@@ -39,7 +39,7 @@
       </ul>
       <br />
 
-      <h2 class="display-6">A Weird Fact</h2>
+      <h2 class="display-6">a weird fact</h2>
       <p>
         I declared my computer science major on a whim as an undecided college
         Sophomore. I hadn't wrote a single line of code prior to my decision.

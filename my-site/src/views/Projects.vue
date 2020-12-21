@@ -2,11 +2,11 @@
   <div class="container-fluid">
     <br /><br />
     <div class="container">
-      <h1 class="display-2">Projects</h1>
+      <h1 class="display-2">projects</h1>
       <p class="lead">(these projects and more can be found on my GitHub)</p>
       <br />
 
-      <h2 class="display-6">Budgeter</h2>
+      <h2 class="display-6">budgeter</h2>
       <h4>
         <small class="text-muted"
           ><a href="https://budgeter-cs291.herokuapp.com/"
@@ -22,7 +22,7 @@
       </p>
       <br />
 
-      <h2 class="display-6">California Beach</h2>
+      <h2 class="display-6">california beach</h2>
       <h4>
         <small class="text-muted"
           ><a href="http://californiabeach.herokuapp.com/index.html"
@@ -40,7 +40,7 @@
       </p>
       <br />
 
-      <h2 class="display-6">One Word Reviews</h2>
+      <h2 class="display-6">one word reviews</h2>
       <h4>
         <small class="text-muted"
           ><a href="http://webdev.cs.umt.edu/~bd152220/one_word_reviews/php/"

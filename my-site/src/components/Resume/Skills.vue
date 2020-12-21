@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="display-6">Skills</h2>
+        <h2 class="display-6">skills</h2>
         <p>Strongest are <mark>highlighted</mark></p>
         <div class="container-fluid row">
             <div class="col" v-for="category in skills" :key="category.id">
