@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="item-div">
     <h2 class="display-6">{{ title }}</h2>
     <div class="container" v-for="item in items" :key="item.id">
       <h4>
@@ -22,7 +22,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
+.item-div {
   margin-bottom: 3rem;
+}
+
+.container {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 15px;
+  border: 1px solid gray;
 }
 </style>

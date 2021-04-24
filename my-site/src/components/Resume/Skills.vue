@@ -37,10 +37,12 @@ export default {
     .card {
         background-color: $body-bg;
         border: 1px solid gray;
+        border-radius: 0px;
         width: 100%;
         height: auto;
         min-height: 250px;
-        margin: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
     mark {
         color: $green;

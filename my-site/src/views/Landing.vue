@@ -18,7 +18,7 @@
           <div class="container home-pic">
             <img
               class="img-fluid pic"
-              src="../assets/imgs/santa_monica.jpg"
+              src="../assets/imgs/beard.jpg"
               alt=""
             />
           </div>
