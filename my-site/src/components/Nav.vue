@@ -43,7 +43,6 @@ export default {
 <style lang="scss" scoped>
 .nav {
   flex-wrap: nowrap;
-  overflow: scroll;
 }
 .nav-container {
   background-color: $body-bg;
