@@ -3,7 +3,23 @@
     <br /><br />
     <div class="container">
       <h1 class="display-2">projects</h1>
-      <p class="lead">(these projects and more can be found on my GitHub)</p>
+      <p class="lead">(more hosted on my <a href="https://github.com/braddeibert">Github</a>)</p>
+      <br />
+
+      <h2 class="display-6">fuelcast.net</h2>
+      <h4>
+        <small class="text-muted"
+          ><a href="https://www.fuelcast.net"
+            >www.fuelcast.net</a
+          ></small
+        >
+      </h4>
+      <p>
+        For the UM CS capstone project, I led a small team (3 peers) to design, develop, and test reporting functionalities for the existing Fuelcast.net platform.
+        In the process, our team revamped the overall look and feel of the site using the Bulma CSS framework. 
+        We worked primarily in Python and vanilla web technologies (HTML, CSS, Javascript). <br><br> 
+        My team's contributions were ultimately merged into the live app after the conclusion of our capstone. Our work can be viewed at the link above. 
+      </p>
       <br />
 
       <h2 class="display-6">budgeter</h2>
@@ -40,22 +56,6 @@
       </p>
       <br />
 
-      <h2 class="display-6">one word reviews</h2>
-      <h4>
-        <small class="text-muted"
-          ><a href="http://webdev.cs.umt.edu/~bd152220/one_word_reviews/php/"
-            >webdev.cs.umt.edu/~bd152220/one_word_reviews/php</a
-          ></small
-        >
-      </h4>
-      <p>
-        Built for Database Design at The University of Montana. The site is a
-        collection of PHP pages that interface with a MySQL database.
-        <br /><br />
-        Visitors can create users, to create and browse one word reviews for
-        movies, tv shows, and albums.
-      </p>
-      <br />
     </div>
     <Nav></Nav>
   </div>
