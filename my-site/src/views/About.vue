@@ -4,42 +4,41 @@
     <div class="container">
       <h1 class="display-2">about</h1>
       <p class="lead">
-        Hey there reader, thanks for stopping by and paying a visit to my site!
-        Here's some stuff about me.
+        Hey there visitor, thanks for checking out my website! Find out more about me below.
       </p>
       <br />
 
-      <h2 class="display-6">where i've been</h2>
+      <h2 class="display-6">from</h2>
       <p>
-        I was born in Kalispell, MT on June 22nd, 1998. I've spent most of my
-        life and received my entire education in Montana. Firstly my diploma
-        from Columbia Falls High School, then my Associate's from Flathead
-        Valley Community College, and finally my Bachelor's from The University
-        of Montana (to be finished May 2021). Outside of Montana, I've spent a
-        couple years in-between Northern California and Eastern Texas. I married
-        my wonderful wife, Alicia Deibert, on August 8th, 2020.
+        I am originally from Montana's beautiful Flathead county. I have spent most of my
+        life in Montana, and even received my full education here. First, my high school diploma
+        from Columbia Falls High School. Then, my Associate's from Flathead
+        Valley Community College, and finally, my Bachelor's from The University
+        of Montana. Between receiving college degrees, I spent a
+        year outside of my home state in Northern California and Eastern Texas. 
       </p>
       <br />
 
-      <h2 class="display-6">facts</h2>
+      <h2 class="display-6">interests</h2>
       <ul>
         <li>
-          I spend a lot of time in the gym. After working at
-          <a href="https://www.accessfitnesskalispell.com/">an awesome one</a>
-          for 2+ years, training became a huge part of who I am.
+          Training and nutrition. After working at
+          <a href="https://www.accessfitnesskalispell.com/">an awesome gym</a>
+          for a couple years, these both became a big part of who I am.
         </li>
         <li>
-          I'm an avid fan of the Green Bay Packers and Los Angeles Lakers. Brett
-          Favre and Kobe Bryant were my childhood heroes.
+          Sports. Especially, Green Bay Packer football and LA Laker basketball. Brett Favre and Kobe Bryant were a couple of my childhood heroes.
         </li>
         <li>
-          I listen to a lot of podcasts and read occasionally. I always
-          appreciate recommendations!
+          Podcasts and books. I love digging in to a good book or listening through a long podcast.
+        </li>
+        <li>
+          Food and cooking. I am always striving for a stronger grill game. 
         </li>
       </ul>
       <br />
 
-      <h2 class="display-6">a weird fact</h2>
+      <h2 class="display-6">weird fact</h2>
       <p>
         I declared my computer science major on a whim as an undecided college
         Sophomore. I hadn't wrote a single line of code prior to my decision.
