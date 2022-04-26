@@ -2,19 +2,19 @@
 
 Welcome to the source code repository for my personal website, currently hosted on GH Pages. It will be updated sporatically, often when I catch a wave of creative inspiration.
 
-## Concept
+### Concept
 
 The design and user experience of the app is inspired by the ZSH shell, and the various code editor themes I've enjoyed using throughout my career.
 
-## Content
+### Content
 
 An about page, resume page, and basic landing page.
 
-## Purpose
+### Purpose
 
 Fun.
 
-Erm, I mean - to get a professional presence of myself out on the web.
+Erm, I mean - to get a professional presence out on the web.
 
 <br/><br/>
 
