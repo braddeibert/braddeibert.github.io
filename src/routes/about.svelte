@@ -2,6 +2,6 @@
 	import BaseLayout from '../components/layout/BaseLayout.svelte';
 </script>
 
-<BaseLayout pageTitle="Brad Deibert">
-	<p>Home page</p>
+<BaseLayout pageTitle="About Me">
+	<p>About page</p>
 </BaseLayout>
