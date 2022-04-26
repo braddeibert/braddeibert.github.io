@@ -1,7 +1,8 @@
 <script>
+	import ResumeContent from '../components/ResumeContent.svelte';
 	import BaseLayout from '../components/layout/BaseLayout.svelte';
 </script>
 
 <BaseLayout pageTitle="Resume">
-	<p>Resume page</p>
+	<ResumeContent />
 </BaseLayout>
