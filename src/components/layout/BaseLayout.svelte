@@ -17,7 +17,7 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		background-color: #000;
+		background-color: #161616;
 	}
 
 	.section {

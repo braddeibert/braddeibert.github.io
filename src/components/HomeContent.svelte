@@ -1,4 +1,6 @@
 <script>
+	import Code from 'svelte-icons/md/MdCode.svelte';
+	import LocationPin from 'svelte-icons/fa/FaMapMarkerAlt.svelte';
 	import Github from 'svelte-icons/fa/FaGithub.svelte';
 	import LinkedIn from 'svelte-icons/fa/FaLinkedinIn.svelte';
 	import Email from 'svelte-icons/fa/FaRegEnvelope.svelte';
@@ -11,16 +13,26 @@
 		<div>
 			<h1>Brad Deibert</h1>
 			<div>
-				<p>Software Engineer</p>
-				<p>Missoula, MT</p>
+				<span class="icon-text">
+					<div class="icon">
+						<Code />
+					</div>
+					<h4>Software Engineer</h4>
+				</span>
+				<span class="icon-text">
+					<div class="icon">
+						<LocationPin />
+					</div>
+					<h4>Missoula, MT</h4>
+				</span>
 			</div>
 		</div>
 
 		<div class="card-foot">
 			<div>
-				<p>ABOUT</p>
-				<p>RESUME</p>
-				<p>CONTACT</p>
+				<h5>ABOUT</h5>
+				<h5>SKILLSET</h5>
+				<h5>PROFESSIONAL RESUME</h5>
 			</div>
 
 			<div class="socials">
@@ -42,13 +54,16 @@
 
 <style>
 	.card {
+		background-color: #161616;
+
 		height: min-content;
-		background-color: black;
+		padding: 32px;
+
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		gap: 32px;
-		padding: 32px;
+
 		border: 5px solid #ff1818;
 		border-radius: 1rem;
 		box-shadow: 0.5rem 0.5rem #ffc300;
@@ -72,9 +87,19 @@
 		gap: 16px;
 	}
 
+	.icon-text {
+		display: flex;
+		gap: 8px;
+		align-items: center;
+	}
+
 	.icon {
+		color: #ececec;
 		height: 30px;
 		width: 30px;
-		color: red;
+	}
+
+	a.icon:hover {
+		color: #5463ff;
 	}
 </style>
