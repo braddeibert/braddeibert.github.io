@@ -5,9 +5,9 @@
 	import Github from 'svelte-icons/fa/FaGithub.svelte';
 	import LinkedIn from 'svelte-icons/fa/FaLinkedinIn.svelte';
 	import Email from 'svelte-icons/fa/FaRegEnvelope.svelte';
+	import dialogOptions from './dialogs/dialogOptions';
 
-	import { isDarkMode } from '../stores';
-
+	import { isDarkMode, dialogName } from '../stores';
 	let imageSrc = 'static/IMG_2902.jpg';
 </script>
 
@@ -34,9 +34,36 @@
 
 			<div class="card-foot">
 				<div>
-					<h5>ABOUT</h5>
-					<h5>SKILLSET</h5>
-					<h5>RESUME</h5>
+					<h5
+						role="button"
+						tabindex="0"
+						on:click={() => {
+							$dialogName = dialogOptions.about;
+						}}
+						class="clickable"
+					>
+						ABOUT
+					</h5>
+					<h5
+						role="button"
+						tabindex="0"
+						on:click={() => {
+							$dialogName = dialogOptions.skills;
+						}}
+						class="clickable"
+					>
+						SKILLSET
+					</h5>
+					<h5
+						role="button"
+						tabindex="0"
+						on:click={() => {
+							$dialogName = dialogOptions.resume;
+						}}
+						class="clickable"
+					>
+						RESUME
+					</h5>
 				</div>
 
 				<div class="socials">
@@ -108,7 +135,7 @@
 		width: 30px;
 	}
 
-	a.icon:hover {
-		color: #5463ff;
+	.clickable {
+		cursor: pointer;
 	}
 </style>

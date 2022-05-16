@@ -1,10 +1,10 @@
 <script>
-	import HomeSection from '../components/HomeSection.svelte';
+	import Home from '../components/Home.svelte';
 	import BasePage from '../components/layout/BasePage.svelte';
 	import Dialog from '../components/layout/Dialog.svelte';
 </script>
 
 <BasePage>
-	<HomeSection />
+	<Home />
 </BasePage>
 <Dialog />

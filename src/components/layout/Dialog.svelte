@@ -1,17 +1,26 @@
 <script>
-	import Minus from 'svelte-icons/fa/FaMinus.svelte';
-	import { isDialogOpen, isDarkMode } from '../../stores';
+	import { dialogName, isDarkMode } from '../../stores';
+	import AboutDialog from '../dialogs/AboutDialog.svelte';
+	import dialogOptions from '../dialogs/dialogOptions';
+	import ResumeDialog from '../dialogs/ResumeDialog.svelte';
+	import SkillsDialog from '../dialogs/SkillsDialog.svelte';
 
 	const handleClick = () => {
-		$isDialogOpen = false;
+		$dialogName = null;
 	};
 </script>
 
-{#if $isDialogOpen}
+{#if dialogOptions[$dialogName]}
 	<div class="dialog-root">
 		<div class={`dialog-body ${$isDarkMode ? 'dark' : ''}`}>
 			<button class="close" on:click={handleClick}>Close</button>
-			<slot />
+			{#if $dialogName === dialogOptions.about}
+				<AboutDialog />
+			{:else if $dialogName === dialogOptions.skills}
+				<SkillsDialog />
+			{:else if $dialogName === dialogOptions.resume}
+				<ResumeDialog />
+			{/if}
 		</div>
 	</div>
 {/if}
@@ -52,6 +61,7 @@
 	}
 
 	.close {
+		position: absolute;
 		font-size: 16px;
 		text-decoration: underline;
 		cursor: pointer;
