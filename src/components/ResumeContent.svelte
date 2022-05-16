@@ -1,4 +1,5 @@
-<div>
+<div class="paper">
+	<h1>Resume</h1>
 	<h2>Skills</h2>
 	<ul>
 		<li>Lorem ipsum.</li>
@@ -25,3 +26,11 @@
 		ligula. Etiam luctus mauris ac aliquet aliquam. Suspendisse fermentum convallis augue et auctor.
 	</p>
 </div>
+
+<style>
+	.paper {
+		padding: 32px;
+		background-color: #fff;
+		box-shadow: 3px 3px #eee;
+	}
+</style>

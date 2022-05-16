@@ -1,21 +1,27 @@
 <script>
-	import Navbar from './Navbar.svelte';
-
-	export let pageTitle;
+	// import Navbar from './Navbar.svelte';
 </script>
 
-<Navbar />
+<!-- <Navbar /> -->
 <main class="main">
-	<h1>{pageTitle}</h1>
-	<slot />
+	<section class="section">
+		<slot />
+	</section>
 </main>
 
 <style>
 	.main {
 		height: 100%;
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		color: #abb2bf;
-		background-color: #4b5263;
-		padding: 32px;
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		background-color: #000;
+	}
+
+	.section {
+		width: 100%;
+		max-width: 1200px;
 	}
 </style>
