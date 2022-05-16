@@ -1,4 +1,8 @@
 <script>
+	import Github from 'svelte-icons/fa/FaGithub.svelte';
+	import LinkedIn from 'svelte-icons/fa/FaLinkedinIn.svelte';
+	import Email from 'svelte-icons/fa/FaRegEnvelope.svelte';
+
 	let src = 'static/IMG_2902.jpg';
 </script>
 
@@ -19,7 +23,17 @@
 				<p>CONTACT</p>
 			</div>
 
-			<div class="socials">social icons here</div>
+			<div class="socials">
+				<a class="icon" href="https://github.com/braddeibert" target="_blank">
+					<Github />
+				</a>
+				<a class="icon" href="https://www.linkedin.com/in/bradleydeibert/" target="_blank">
+					<LinkedIn />
+				</a>
+				<a class="icon" href="mailto:bradeibert7@gmail.com">
+					<Email />
+				</a>
+			</div>
 		</div>
 	</div>
 
@@ -55,5 +69,12 @@
 	.socials {
 		display: flex;
 		align-items: flex-end;
+		gap: 16px;
+	}
+
+	.icon {
+		height: 30px;
+		width: 30px;
+		color: red;
 	}
 </style>
