@@ -8,8 +8,7 @@ publish(
 		user: {
 			name: 'Brad Deibert',
 			email: 'bradeibert7@gmail.com'
-		},
-		dotfiles: true
+		}
 	},
 	() => {
 		console.log('Deploy Complete!');
