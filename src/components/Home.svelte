@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	import Section from '../components/layout/Section.svelte';
 	import Code from 'svelte-icons/md/MdCode.svelte';
 	import LocationPin from 'svelte-icons/fa/FaMapMarkerAlt.svelte';
@@ -8,7 +10,7 @@
 	import dialogOptions from './dialogs/dialogOptions';
 
 	import { isDarkMode, dialogName } from '../stores';
-	let imageSrc = 'static/IMG_2902.jpg';
+	let imageSrc = `${base}/IMG_2902.jpg`;
 </script>
 
 <Section isFullScreen>
@@ -67,13 +69,21 @@
 				</div>
 
 				<div class="socials">
-					<a class="icon" href="https://github.com/braddeibert" target="_blank">
+					<a
+						class={`icon ${$isDarkMode ? 'dark' : ''}`}
+						href="https://github.com/braddeibert"
+						target="_blank"
+					>
 						<Github />
 					</a>
-					<a class="icon" href="https://www.linkedin.com/in/bradleydeibert/" target="_blank">
+					<a
+						class={`icon ${$isDarkMode ? 'dark' : ''}`}
+						href="https://www.linkedin.com/in/bradleydeibert/"
+						target="_blank"
+					>
 						<LinkedIn />
 					</a>
-					<a class="icon" href="mailto:bradeibert7@gmail.com">
+					<a class={`icon ${$isDarkMode ? 'dark' : ''}`} href="mailto:bradeibert7@gmail.com">
 						<Email />
 					</a>
 				</div>
@@ -130,8 +140,17 @@
 	}
 
 	.icon {
+		color: #161616;
 		height: 30px;
 		width: 30px;
+	}
+
+	.icon.dark {
+		color: #ececec;
+	}
+
+	.icon:hover {
+		color: #5463ff;
 	}
 
 	.clickable {
