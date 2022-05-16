@@ -5,6 +5,7 @@ publish(
 	{
 		branch: 'gh-pages',
 		repo: 'https://github.com/braddeibert/braddeibert.github.io',
+		dotfiles: true,
 		user: {
 			name: 'Brad Deibert',
 			email: 'bradeibert7@gmail.com'
