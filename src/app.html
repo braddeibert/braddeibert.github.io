@@ -24,13 +24,22 @@
 		font-family: 'Zilla Slab', serif;
 	}
 
+	body {
+		color: #161616;
+		background-color: #ececec;
+	}
+
+	body.dark {
+		color: #ececec;
+		background-color: #161616;
+	}
+
 	h1,
 	h2,
 	h3,
 	h4,
 	h5,
 	p {
-		color: #ececec;
 		margin: 8px 0;
 	}
 
@@ -60,6 +69,10 @@
 
 	.container {
 		height: 100%;
+		flex-grow: 1;
 		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	}
 </style>

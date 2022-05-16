@@ -1,8 +1,14 @@
 <script>
-	import HomeContent from '../components/HomeContent.svelte';
-	import BaseLayout from '../components/layout/BaseLayout.svelte';
+	import AboutSection from '../components/AboutSection.svelte';
+	import HomeSection from '../components/HomeSection.svelte';
+	import BasePage from '../components/layout/BasePage.svelte';
+	import SkillsSection from '../components/SkillsSection.svelte';
+	import ResumeSection from '../components/ResumeSection.svelte';
 </script>
 
-<BaseLayout>
-	<HomeContent />
-</BaseLayout>
+<BasePage>
+	<HomeSection />
+	<AboutSection />
+	<SkillsSection />
+	<ResumeSection />
+</BasePage>
