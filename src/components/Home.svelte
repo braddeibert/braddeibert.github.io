@@ -7,6 +7,7 @@
 	import Github from 'svelte-icons/fa/FaGithub.svelte';
 	import LinkedIn from 'svelte-icons/fa/FaLinkedinIn.svelte';
 	import Email from 'svelte-icons/fa/FaRegEnvelope.svelte';
+	import Icon from '../components/Icon.svelte';
 	import dialogOptions from './dialogs/dialogOptions';
 
 	import { isDarkMode, dialogName } from '../stores';
@@ -20,15 +21,15 @@
 				<h1>Brad Deibert</h1>
 				<div>
 					<span class="icon-text">
-						<div class="icon">
+						<Icon>
 							<Code />
-						</div>
+						</Icon>
 						<h4>Software Engineer</h4>
 					</span>
 					<span class="icon-text">
-						<div class="icon">
+						<Icon>
 							<LocationPin />
-						</div>
+						</Icon>
 						<h4>Missoula, MT</h4>
 					</span>
 				</div>
@@ -83,7 +84,7 @@
 					>
 						<LinkedIn />
 					</a>
-					<a class={`icon ${$isDarkMode ? 'dark' : ''}`} href="mailto:bradeibert7@gmail.com">
+					<a class="icon" href="mailto:bradeibert7@gmail.com">
 						<Email />
 					</a>
 				</div>
@@ -140,17 +141,8 @@
 	}
 
 	.icon {
-		color: #161616;
 		height: 30px;
 		width: 30px;
-	}
-
-	.icon.dark {
-		color: #ececec;
-	}
-
-	.icon:hover {
-		color: #5463ff;
 	}
 
 	.clickable {
