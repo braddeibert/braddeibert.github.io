@@ -130,7 +130,6 @@
 	}
 
 	.icon {
-		color: inherit;
 		height: 30px;
 		width: 30px;
 	}
