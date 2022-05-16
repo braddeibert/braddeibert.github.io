@@ -9,9 +9,9 @@
 
 <style>
 	.main {
-		display: flex;
-		flex-direction: column;
-		gap: 32px;
+		display: grid;
+		/* grid-template-rows: repeat(3, %); */
+		grid-gap: 32px;
 
 		width: 100%;
 		max-width: 1200px;

@@ -10,6 +10,7 @@
 	.section {
 		flex-grow: 1;
 		max-width: 1200px;
+		min-height: 100vh;
 		margin: 0 32px;
 	}
 
