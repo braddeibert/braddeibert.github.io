@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<link rel="icon" href="%svelte.assets%/mount-fuji.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap"
+			rel="stylesheet"
+		/>
+		%svelte.head%
+	</head>
+	<body style="height: 100%; margin: 0">
+		<div class="container">%svelte.body%</div>
+	</body>
+	<a href="https://www.flaticon.com/free-icons/mountain" title="mountain icons"
+		>Mountain icons created by Freepik - Flaticon</a
+	>
+</html>
+
+<style>
+	* {
+		font-family: 'Zilla Slab', serif;
+	}
+
+	body {
+		color: #161616;
+		background-color: #ececec;
+		overflow: hidden;
+	}
+
+	body.dark {
+		color: #ececec;
+		background-color: #161616;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	p {
+		margin: 8px 0;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
+
+	h4 {
+		font-size: 24px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	a {
+		color: unset;
+	}
+
+	a:hover {
+		color: #5463ff;
+	}
+
+	.container {
+		height: 100%;
+		flex-grow: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+</style>
