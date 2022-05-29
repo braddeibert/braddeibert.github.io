@@ -7,10 +7,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
       - name: Install dependencies
-      - run: npm i
+        run: npm i
 
       - name: Deploy to gh pages
-      - run: npm run deploy
+        run: npm run deploy
