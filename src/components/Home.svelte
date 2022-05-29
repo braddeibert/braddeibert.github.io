@@ -18,7 +18,7 @@
 	<div class={`card ${$isDarkMode ? 'dark' : ''}`}>
 		<div class="content">
 			<div>
-				<h1>Bob Deibert</h1>
+				<h1>Brad Deibert</h1>
 				<div>
 					<span class="icon-text">
 						<Icon>
