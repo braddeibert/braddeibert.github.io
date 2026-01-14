@@ -16,3 +16,8 @@ Erm, I mean - to get a professional presence out on the web.
 <br/><br/>
 
 site powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte)
+
+## Astro prototype
+
+A new `astro` directory contains an early experiment using [Astro](https://astro.build) with the Preact integration. Run `npm install` inside that folder and `npm run dev` to start the dev server.
+The prototype now includes a Preact profile component and simple `/about` and `/skills` pages.

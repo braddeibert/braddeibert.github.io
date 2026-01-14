@@ -7,13 +7,9 @@
 </div>
 
 <style>
-	.icon {
-		/* color: #161616; */
-		height: 30px;
-		width: 30px;
-	}
-
-	/* .icon.dark {
-		color: #ececec;
-	} */
+        .icon {
+                height: 30px;
+                width: 30px;
+                color: var(--accent-color);
+        }
 </style>

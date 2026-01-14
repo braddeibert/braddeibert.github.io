@@ -96,25 +96,26 @@
 </Section>
 
 <style>
-	.card {
-		height: min-content;
-		padding: 32px;
+        .card {
+                height: min-content;
+                padding: 32px;
 
-		flex-grow: 1;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		gap: 32px;
+                flex-grow: 1;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 32px;
 
-		border: 5px solid #10316b;
-		border-radius: 1rem;
-		box-shadow: 0.5rem 0.5rem #0b8457;
-	}
+                background-color: var(--bg-color);
+                border: 2px solid var(--border-color);
+                border-radius: 1rem;
+                box-shadow: 0.5rem 0.5rem var(--shadow-color);
+        }
 
-	.card.dark {
-		border: 5px solid #ff1818;
-		box-shadow: 0.5rem 0.5rem #ffc300;
-	}
+        .card.dark {
+                border-color: var(--accent-color);
+                box-shadow: 0.5rem 0.5rem var(--accent-color);
+        }
 
 	.content {
 		flex-grow: 1;

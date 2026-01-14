@@ -40,9 +40,9 @@
 		left: 0;
 	}
 
-	.dialog-body {
-		background-color: #ececec;
-		color: inherit;
+        .dialog-body {
+                background-color: var(--bg-color);
+                color: var(--text-color);
 
 		display: flex;
 		flex-direction: column;
@@ -55,10 +55,10 @@
 		border-radius: 0.5rem;
 	}
 
-	.dialog-body.dark {
-		color: #ececec;
-		background-color: #161616;
-	}
+        .dialog-body.dark {
+                background-color: var(--bg-color);
+                color: var(--text-color);
+        }
 
 	.close {
 		position: absolute;

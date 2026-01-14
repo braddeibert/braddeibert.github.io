@@ -22,25 +22,26 @@
 </label>
 
 <style>
-	.theme-toggle {
-		position: sticky;
-		top: 25px;
-		left: calc(100% - 165px);
+        .theme-toggle {
+                position: sticky;
+                top: 25px;
+                left: calc(100% - 165px);
 
-		color: #161616;
-		outline: 2px solid #161616;
+                color: var(--text-color);
+                background-color: var(--bg-color);
+                outline: 2px solid var(--border-color);
 
-		display: flex;
-		align-items: center;
-		gap: 4px;
+                display: flex;
+                align-items: center;
+                gap: 4px;
 
-		width: max-content;
-		padding: 16px;
-		border-radius: 2rem;
-	}
+                width: max-content;
+                padding: 16px;
+                border-radius: 2rem;
+        }
 
-	.theme-toggle.dark {
-		color: #ececec;
-		outline: 2px solid #ececec;
-	}
+        .theme-toggle.dark {
+                color: var(--text-color);
+                outline: 2px solid var(--border-color);
+        }
 </style>

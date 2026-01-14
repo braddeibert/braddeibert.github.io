@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" style="height: 100%">
 	<head>
 		<meta charset="utf-8" />
@@ -27,15 +27,26 @@
 		font-family: 'Zilla Slab', serif;
 	}
 
-	body {
-		color: #161616;
-		background-color: #ececec;
-		overflow: hidden;
+	:root {
+		--bg-color: #f8f9fa;
+		--text-color: #212529;
+		--border-color: #dee2e6;
+		--accent-color: #5463ff;
+		--shadow-color: rgba(0, 0, 0, 0.1);
 	}
 
 	body.dark {
-		color: #ececec;
-		background-color: #161616;
+		--bg-color: #121212;
+		--text-color: #f1f1f1;
+		--border-color: #444;
+		--accent-color: #ffd54f;
+		--shadow-color: rgba(0, 0, 0, 0.4);
+	}
+
+	body {
+		color: var(--text-color);
+		background-color: var(--bg-color);
+		overflow: hidden;
 	}
 
 	h1,
@@ -76,7 +87,7 @@
 	}
 
 	a:hover {
-		color: #5463ff;
+		color: var(--accent-color);
 	}
 
 	.container {
